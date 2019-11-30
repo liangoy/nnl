@@ -37,7 +37,7 @@ def bfn(matched):
     return b'"' if x==b'""' else b'\n'*(len(x)-2)
 
 def _bdecode(t):
-    t=c2.sub(fn,t)
+    t=c2.sub(bfn,t)
     return t
 
 '''
