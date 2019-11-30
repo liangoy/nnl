@@ -1,4 +1,6 @@
 ** Eg
+
+
 '''
 
     import nnl
@@ -22,5 +24,6 @@
     text_lines=[nnl.decode(i)for i in text_lines]
     
     print(text_lines==l)
+
 '''
 
